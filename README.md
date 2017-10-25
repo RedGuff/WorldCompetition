@@ -54,7 +54,7 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 |Nom           | Type   | Valeur |
 |--------------| ------ | -------|
 |+ host country | String |       |
-|+ teams      | Object |       |
+|+ teams      | Object |         |
 
 
 
@@ -68,13 +68,20 @@ Team
 #### **_Stade()**
 |Nom           | Type   | Valeur| 
 |--------------| ------ | -------|
-|+ id  |String       ||
-|+ name|String||
-|+ city| String||
-|+ nbSeat| Int||
-|+ available| Bool||
-|+ lastDateUse | Date||
+|+ id         |String  |         |
+|+ name       |String  |         |
+|+ city       | String |         |
+|+ nbSeat     | Int    |         |
+|+ available  | Bool   |         |
+|+ lastDateUse| Date   |         |
 
 
 
-Match
+#### **_Match()**
+|Nom           | Type   | Valeur| 
+|--------------| ------ | -------|
+|+ stade       | Object |        |
+|+ country2    |Object  |        |
+|+ country1    |Object  |        |
+|+ date        |Date    |        |
+
