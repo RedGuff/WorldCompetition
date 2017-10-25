@@ -58,8 +58,11 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 
 
 
-round
-
+#### **_round()**
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ id         | String|          |
+|+ matchs     |Object|           |
 
 Team
 
