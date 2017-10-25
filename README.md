@@ -28,6 +28,15 @@ avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 
 
 ## Méthodes et noms des classes
+### @Constructeur :
+Paramètres : 
+Nom           | Type   | Valeur 
+--------------| ------ | -------
++ stades      | Object | {}
++ nameCountry | String | 
++ codeIso     | String |
+
+
 HostCountry
 
 
