@@ -20,7 +20,7 @@ Les stades sont créés dans la classe du pays organisateur.
 
 Chaque équipe a un nom. 
 
-avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible pour un match en ces circonstances (date…).
+availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible pour un match en ces circonstances (date…).
 
 ## Diagramme
 ![Diagramme des classes](FootCompetition.png)
@@ -31,26 +31,28 @@ avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 ### @Constructeur :
 #### Paramètres : 
 Nom           | Type   | Valeur 
+--------------| ------ | -------
 + stades      | Object | {}
 + nameCountry | String | 
 + codeIso     | String |
---------------| ------ | -------
+
 
 ### Fonctions :
 
 #### **_hostCountry()**
 
 Nom           | Type   | Valeur 
+--------------| ------ | -------
 + stades      | Object |
 + nameCountry | String |
 + codeIso     | String |
---------------| ------ | -------
 
 
 
 
 #### **_PlanningCompetition()**
 Nom           | Type   | Valeur 
+--------------| ------ | -------
 + host country | String |
 + teams      | Object |
 
@@ -65,6 +67,7 @@ Team
 
 #### **_Stade()**
 Nom           | Type   | Valeur 
+--------------| ------ | -------
 + id  :String
 + name: String
 + city: String
