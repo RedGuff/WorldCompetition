@@ -28,6 +28,8 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 
 
 # Classe HostCountry
+
+### Fonctions 
 ## @Constructeur :
 ### Paramètres : 
 |Nom           | Type   | Valeur |
@@ -35,22 +37,39 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 |+ stades      | Object | {}     |
 |+ nameCountry | String |        |
 |+ codeIso     | String |        |
-## Méthodes et noms des classes
-### Fonctions 
-#### get()
+
+#### getStade()
 Affiche le pays organisateur.
 
 
+# Classe PlanningCompetition
 
-### Fonctions :
-|Nom           | Type   | Valeur |
-|--------------| ------ | -------| 
-|+ stades      | Object |        |
-|+ nameCountry | String |        |
-## Méthodes et noms des classes
 ### Fonctions 
-#### + looser(teamLooser Object) 
-Indque qui perd le match
+## @Constructeur :
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ hostCountry      | String | {}     |
+|+ teams | Object |        |
+
+
+### Méthodes
+###+ run()
+
+#### + initialize()
+
+
+#####+ renderPlanning(String)
+
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ Dom      | String | {}     |
+##### + countTeamAvailable() : Int
+##### + countNbMatchsByRound() : Int
+
+#### getStade()
+Affiche le pays organisateur.
 
 
 + renderMatch()
@@ -59,46 +78,4 @@ Prend le score du match
 Indique les matches de l'équipe.
 + tplMatch() 
 Templace du match (carré avec les traits)
-
-
-
-
-
-#### **_PlanningCompetition()**
-|Nom           | Type   | Valeur |
-|--------------| ------ | -------|
-|+ host country | String |       |
-|+ teams      | Object |         |
-
-
-
-#### **_round()**
-|Nom           | Type   | Valeur |
-|--------------| ------ | -------|
-|+ id         | String|          |
-|+ matchs     |Object|           |
-
-Team
-
-
-
-#### **_Stade()**
-|Nom           | Type   | Valeur| 
-|--------------| ------ | -------|
-|+ id         |String  |         |
-|+ name       |String  |         |
-|+ city       | String |         |
-|+ nbSeat     | Int    |         |
-|+ available  | Bool   |         |
-|+ lastDateUse| Date   |         |
-
-
-
-#### **_Match()**
-|Nom           | Type   | Valeur| 
-|--------------| ------ | -------|
-|+ stade       | Object |        |
-|+ country2    |Object  |        |
-|+ country1    |Object  |        |
-|+ date        |Date    |        |
 
