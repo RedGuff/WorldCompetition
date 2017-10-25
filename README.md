@@ -131,15 +131,23 @@ Organise les matchs
 #### + initialize()
 ##### + setAvailable(available: Bool)
 ##### + getAvailable(): Bool
+Indique si le stade est disponible.
 ##### + setId(id : String)
+Identifie le stade.
 ##### + getId(): String
+Identifie le stade.
 ##### + setName(name :String)
+Identifie le stade.
 ##### + getName() : String
+Identifie le stade.
 ##### + setNbSeat(nbSeat : Int)
+Caractérise le stade.
 ##### + getNbSeat() : Int
+Caractérise le stade.
 ##### + setLastDateUse( dateUse : Date) 
+Dernier jour d'utilisation.
 ##### + getLastDateUse() : Date
-
+Dernier jour d'utilisation.
 
 # Classe Match
 ### Fonctions 
