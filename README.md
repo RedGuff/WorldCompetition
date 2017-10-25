@@ -23,11 +23,11 @@ Chaque équipe a un nom.
 avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible pour un match en ces circonstances (date…).
 
 ## Diagramme
-![github](FootCompetition.png)
+![Diagramme des classes](FootCompetition.png)
 // TODO : à revoir.
 
 
-## Méthode et noms des classes
+## Méthodes et noms des classes
 HostCountry
 
 
