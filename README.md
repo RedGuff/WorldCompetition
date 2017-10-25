@@ -27,20 +27,29 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 // TODO : à revoir.
 
 
-## Méthodes et noms des classes
-### @Constructeur :
-#### Paramètres : 
+# Classe HostCountry
+## @Constructeur :
+### Paramètres : 
 |Nom           | Type   | Valeur |
 |--------------| ------ | -------|
 |+ stades      | Object | {}     |
 |+ nameCountry | String |        |
 |+ codeIso     | String |        |
+## Méthodes et noms des classes
+### Fonctions 
+#### get()
+Affiche le pays organisateur.
+
+
+
+
+
+
+
+
 
 
 ### Fonctions :
-
-#### **_hostCountry()**
-
 |Nom           | Type   | Valeur |
 |--------------| ------ | -------| 
 |+ stades      | Object |        |
