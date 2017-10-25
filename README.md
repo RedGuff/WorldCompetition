@@ -86,9 +86,13 @@ Templace du match (carré avec les traits)
 
 ### Méthodes
 ### + run()
+Lance le match.
 #### + initialize()
+Initialise le match
 ##### + createMatchs(Int)
+Organise les matchs
 ##### + teamsForRound() : Object
+
 ##### + checkLastRound(): Bool
 
 
