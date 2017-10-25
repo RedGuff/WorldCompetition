@@ -30,31 +30,31 @@ availableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 ## Méthodes et noms des classes
 ### @Constructeur :
 #### Paramètres : 
-Nom           | Type   | Valeur 
---------------| ------ | -------
-+ stades      | Object | {}
-+ nameCountry | String | 
-+ codeIso     | String |
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ stades      | Object | {}     |
+|+ nameCountry | String |        |
+|+ codeIso     | String |        |
 
 
 ### Fonctions :
 
 #### **_hostCountry()**
 
-Nom           | Type   | Valeur 
---------------| ------ | -------
-+ stades      | Object |
-+ nameCountry | String |
-+ codeIso     | String |
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------| 
+|+ stades      | Object |        |
+|+ nameCountry | String |        |
+|+ codeIso     | String |        | 
 
 
 
 
 #### **_PlanningCompetition()**
-Nom           | Type   | Valeur 
---------------| ------ | -------
-+ host country | String |
-+ teams      | Object |
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ host country | String |       |
+|+ teams      | Object |       |
 
 
 
@@ -66,14 +66,14 @@ Team
 
 
 #### **_Stade()**
-Nom           | Type   | Valeur 
---------------| ------ | -------
-+ id  :String
-+ name: String
-+ city: String
-+ nbSeat: Int
-+ available: Bool
-+ lastDateUse : Date
+|Nom           | Type   | Valeur| 
+|--------------| ------ | -------|
+|+ id  |String       ||
+|+ name|String||
+|+ city| String||
+|+ nbSeat| Int||
+|+ available| Bool||
+|+ lastDateUse | Date||
 
 
 
