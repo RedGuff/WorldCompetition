@@ -63,7 +63,14 @@ Team
 
 
 
-Stade
+#### **_Stade()**
+Nom           | Type   | Valeur 
++ id  :String
++ name: String
++ city: String
++ nbSeat: Int
++ available: Bool
++ lastDateUse : Date
 
 
 
