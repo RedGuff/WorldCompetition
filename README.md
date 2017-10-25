@@ -44,24 +44,20 @@ Affiche le pays organisateur.
 
 ### Méthodes
 ### + run()
+lance le programme
 
 #### + initialize()
+initialize la vu de l'arbre entirer sans les equipe à l'interieur
 
+##### + countTeamAvailable()
+  combient d'equipe encore , dans le tournoi
 
-##### + countTeamAvailable() : Int
 ##### + countNbMatchsByRound() : Int
 
-#### getStade()
-Affiche le pays organisateur.
+combient de match par phase
 
-
-+ renderMatch()
-Prend le score du match
-+ setTeam(team1: Object, team2 : Object)
-Indique les matches de l'équipe.
-+ tplMatch() 
-Templace du match (carré avec les traits)
-
+#### checkWinner()
+verifie qui est le gagnat
 
 
 # Classe Round
@@ -74,15 +70,12 @@ Templace du match (carré avec les traits)
 |+ matchs | Object||
 
 ### Méthodes
-### + run()
-Lance le match.
-#### + initialize()
-Initialise le match
-##### + createMatchs(Int)
-Organise les matchs
-##### + teamsForRound() : Object
 
-##### + checkLastRound(): Bool
+### + createMatchs()
+ crée un match 
+
+### + teamsForRound() 
+### + checkLastRound()
 
 
 # Classe Team
