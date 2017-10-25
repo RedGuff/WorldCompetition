@@ -8,7 +8,7 @@ Une fois les valeurs entrées dans le code, lancez-le : le planning doit être a
 
 ## Contraintes
 Chaque match a un stade, un moment, deux équipes.
-Chaque stade a besoin d’un temps de préparation avant le match (sécurité) et après (nettoyage), un lieu, un nom.
+Chaque stade a besoin d’une journée de préparation avant le match (sécurité) et après (nettoyage), un lieu, un nom.
 Les équipes ont besoin de repos : maximum 2 jours de matchs consécutifs.
 4 matchs maximum par jour, 2 matchs maximum à la fois (2 le matin et 2 le soir par exemple).
 
@@ -31,11 +31,8 @@ avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 ### @Constructeur :
 #### Paramètres : 
 Nom           | Type   | Valeur 
---------------| ------ | -------
 + stades      | Object | {}
---------------| ------ | -------
 + nameCountry | String | 
---------------| ------ | -------
 + codeIso     | String |
 --------------| ------ | -------
 
@@ -44,18 +41,19 @@ Nom           | Type   | Valeur
 #### **_hostCountry()**
 
 Nom           | Type   | Valeur 
---------------| ------ | -------
 + stades      | Object |
---------------| ------ | -------
 + nameCountry | String |
---------------| ------ | -------
 + codeIso     | String |
 --------------| ------ | -------
 
 
 
 
-PlanningCompetition
+#### **_PlanningCompetition()**
+Nom           | Type   | Valeur 
++ host country | String |
++ teams      | Object |
+
 
 
 round
