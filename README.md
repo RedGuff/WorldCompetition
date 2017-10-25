@@ -33,15 +33,26 @@ avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 Nom           | Type   | Valeur 
 --------------| ------ | -------
 + stades      | Object | {}
+--------------| ------ | -------
 + nameCountry | String | 
+--------------| ------ | -------
 + codeIso     | String |
-
+--------------| ------ | -------
 
 ### Fonctions :
 
 #### **_hostCountry()**
 
-### @HostCountry
+Nom           | Type   | Valeur 
+--------------| ------ | -------
++ stades      | Object |
+--------------| ------ | -------
++ nameCountry | String |
+--------------| ------ | -------
++ codeIso     | String |
+--------------| ------ | -------
+
+
 
 
 PlanningCompetition
