@@ -20,7 +20,7 @@ Les stades sont créés dans la classe du pays organisateur.
 
 Chaque équipe a un nom. 
 
-Team + avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible pour un match en ces circonstances (date…).
+avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible pour un match en ces circonstances (date…).
 
 ## Diagramme
 ![github](FootCompetition.png)
