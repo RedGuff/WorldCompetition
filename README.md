@@ -42,19 +42,24 @@ Affiche le pays organisateur.
 
 
 
-
-
-
-
-
-
-
 ### Fonctions :
 |Nom           | Type   | Valeur |
 |--------------| ------ | -------| 
 |+ stades      | Object |        |
 |+ nameCountry | String |        |
-|+ codeIso     | String |        | 
+## Méthodes et noms des classes
+### Fonctions 
+#### + looser(teamLooser Object) 
+Indque qui perd le match
+
+
++ renderMatch()
+Prend le score du match
++ setTeam(team1: Object, team2 : Object)
+Indique les matches de l'équipe.
++ tplMatch() 
+Templace du match (carré avec les traits)
+
 
 
 
