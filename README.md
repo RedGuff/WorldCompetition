@@ -28,3 +28,21 @@ avaliableMatch: Bool : indique si l’entité (stade ou équipe) est disponible 
 
 
 ## Méthode et noms des classes
+HostCountry
+
+
+PlanningCompetition
+
+
+round
+
+
+Team
+
+
+
+Stade
+
+
+
+Match
