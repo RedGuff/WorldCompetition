@@ -54,17 +54,11 @@ Affiche le pays organisateur.
 
 
 ### Méthodes
-###+ run()
+### + run()
 
 #### + initialize()
 
 
-#####+ renderPlanning(String)
-
-### Paramètres : 
-|Nom           | Type   | Valeur |
-|--------------| ------ | -------|
-|+ Dom      | String | {}     |
 ##### + countTeamAvailable() : Int
 ##### + countNbMatchsByRound() : Int
 
@@ -78,4 +72,69 @@ Prend le score du match
 Indique les matches de l'équipe.
 + tplMatch() 
 Templace du match (carré avec les traits)
+
+# Classe Team
+### Fonctions 
+## @Constructeur :
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ name      | String | {}     |
+|+ nbPlayers      | int | {}     |
+|+ nameCountry      | String | {}     |
+|+ available      | Bool | {}     |
+
+### Méthodes
+### + run()
+#### + initialize()
+##### + availableMatch(win: Bool): Bool
+
+# Classe Stade
+### Fonctions 
+## @Constructeur :
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ id  |-String||
+|+ name| String||
+|+ city| String||
+|+ nbSeat| Int||
+|+ available| Bool||
+|+ lastDateUse | Date||
+
+
+### Méthodes
+### + run()
+#### + initialize()
+##### + setAvailable(available: Bool)
+##### + getAvailable(): Bool
+##### + setId(id : String)
+##### + getId(): String
+##### + setName(name :String)
+##### + getName() : String
+##### + setNbSeat(nbSeat : Int)
+##### + getNbSeat() : Int
+##### + setLastDateUse( dateUse : Date) 
+##### + getLastDateUse() : Date
+
+
+# Classe Match
+### Fonctions 
+## @Constructeur :
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ stade | Object||
+|+ date|Date ||
+
+
+### Méthodes
+### + run()
+#### + initialize()
+##### + looser(teamLooser Object) : Object
+##### + renderMatch()
+##### + setTeam(team1: Object, team2 : Object)
+##### + tplMatch() 
+
+
 
