@@ -73,6 +73,25 @@ Indique les matches de l'équipe.
 + tplMatch() 
 Templace du match (carré avec les traits)
 
+
+
+# Classe Round
+### Fonctions 
+## @Constructeur :
+### Paramètres : 
+|Nom           | Type   | Valeur |
+|--------------| ------ | -------|
+|+ id| String||
+|+ matchs | Object||
+
+### Méthodes
+### + run()
+#### + initialize()
+##### + createMatchs(Int)
+##### + teamsForRound() : Object
+##### + checkLastRound(): Bool
+
+
 # Classe Team
 ### Fonctions 
 ## @Constructeur :
